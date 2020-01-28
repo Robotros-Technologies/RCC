@@ -1,0 +1,47 @@
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+body {
+  padding-top: 9em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  padding-bottom:25px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Baloo', cursive;
+}
+
+.title{
+  font-family: 'Baloo', cursive;
+  font-size: 1.5em;
+}
+
+.foot{
+  padding:0px;
+}
+.center-align {
+  margin: 0 auto;
+}
+
