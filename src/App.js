@@ -13,10 +13,6 @@ import React from 'react';
 import {Route} from 'react-router-dom';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {faCopyright} from '@fortawesome/free-solid-svg-icons';
-import {faDice} from '@fortawesome/free-solid-svg-icons';
-import {faChartBar} from '@fortawesome/free-solid-svg-icons';
-import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
-import {faHistory} from '@fortawesome/free-solid-svg-icons';
 import Head from './components/Head';
 import Foot from './components/Foot';
 import Home from './components/Home';
@@ -37,13 +33,27 @@ class RCCApp extends React.Component {
     Nav: [
       {
         'path': '/',
-        'label': 'Home',
+        'label': 'About',
         'component': Home,
+      },
+      {
+        'path': '/',
+        'label': 'Services',
+
+      },
+      {
+        'path': '/',
+        'label': 'Contact',
+
+      },
+      {
+        'path': '/',
+        'label': 'Careers',
+
       },
     ],
     social: [
       {'url': 'https://www.facebook.com/robotrostech'},
-      // {'url': 'https://www.youtube.com/channel/UCgXsCoR3OWw7IE6UL_NWJYQ'},
       {'url': 'https://www.linkedin.com/company/refrigerationcontractingcompany'},
       // {'url': 'emailto:a.roberts@robotros.tech'},
     ],
