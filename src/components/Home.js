@@ -47,7 +47,7 @@ class Home extends React.Component {
         <section id="map" className="section-white">
           <div className="row text-center">
             <div className="col-md-12 ">
-              <iframe className="img-responsive google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.1952259400887!2d-111.99634228430682!3d33.39207058079061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0f7480646c07%3A0x76a1d1df6fbcc9f2!2s6003+S+40th+St%2C+Phoenix%2C+AZ+85042!5e0!3m2!1sen!2sus!4v1494484179259" allowfullscreen></iframe>
+              <iframe title='map' max-width='3000px' className="img-responsive google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.1952259400887!2d-111.99634228430682!3d33.39207058079061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0f7480646c07%3A0x76a1d1df6fbcc9f2!2s6003+S+40th+St%2C+Phoenix%2C+AZ+85042!5e0!3m2!1sen!2sus!4v1494484179259" allowfullscreen></iframe>
             </div>
           </div>
         </section>

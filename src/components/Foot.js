@@ -22,53 +22,47 @@ class Foot extends Component {
         <div className="footer-above">
           <div className="container">
             <div className="row" id="contact">
-              <div className="footer-col col-md-4">
+              <div className="footer-col col-md-4 text-left">
                 <h3>Location</h3>
-                  <p>6003 S. 40th St.
-                  <br/>Phoenix, AZ 85040</p>
+                <p>6003 S. 40th St.
+                  <br/>Phoenix, AZ 85040
+                </p>
               </div>
-              <div className="footer-col col-md-4">
+              <div className="footer-col col-md-4 text-center">
                 <h3>Around the Web</h3>
-                  <ul className="list-inline">
-                                <li>
-                                    {this.props.social.map((S) =>
-                <SocialIcon
-                  key={S.url}
-                  url={S.url}
-                />
-              )}
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="footer-col col-md-4">
-                        <h3>Phone</h3>
-                        <p> Toll Free : 855-852-4555 <br/>
+                <ul className="list-inline text-center">
+                  <li>
+                    {this.props.social.map((S) =>
+                      <SocialIcon
+                        key={S.url}
+                        url={S.url}
+                      />
+                    )}
+                  </li>
+                </ul>
+              </div>
+              <div className="footer-col col-md-4 text-right">
+                <h3>Phone</h3>
+                <p> Toll Free : 855-852-4555 <br/>
+                ROC#: <a href='https://roc.az.gov/contractor-search?Id=a0Yt000000ACjPFEA1'>322707</a> C-49 <br/>
+                ROC#: <a href='https://roc.az.gov/contractor-search?Id=a0Yt000000ACjfoEAD'>322776</a> CR-39 <br/>
 
-                          ROC#: <a href="http://www.azroc.gov/forms/details.asp?license=311790">311790</a> C-49</p>
-
-                        </div>
-                    </div>
-                </div>
+                CSLB#: <a href='https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=939445'>939445</a> C38, C20 <br/>
+                </p>
+              </div>
             </div>
-            <div class="footer-below">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                                <p className='m-0 text-center text-white'>
+          </div>
+        </div>
+        <div className="footer-below">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+              <hr/>
+                <p className='m-0 text-center text-white'>
                 Copyright <FontAwesomeIcon icon='copyright' />
-                {new Date().getFullYear()} {this.props.company}
-              </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-md-6'>
-
-            </div>
-            <div className='col-md-6'>
-
+                  {new Date().getFullYear()} {this.props.company}
+                </p>
+              </div>
             </div>
           </div>
         </div>

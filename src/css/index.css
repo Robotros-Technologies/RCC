@@ -30,11 +30,15 @@ header {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Baloo', cursive;
+ font-family: 'B612 Mono', monospace;
+}
+
+hr{
+  border: 2px solid white;
 }
 
 .title{
-  font-family: 'Baloo', cursive;
+ font-family: 'B612 Mono', monospace;
   font-size: 1.5em;
 }
 
@@ -47,4 +51,20 @@ h1, h2, h3, h4 {
 
 .logo{
   max-height:125px;
+}
+
+.text-red{
+  color:red;
+}
+
+.text-black{
+  color: black;
+}
+
+.text-blue{
+  color:blue;
+}
+
+.text-white{
+  color:white;
 }
