@@ -3,6 +3,7 @@
 /* eslint max-len: "warn" */
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import Office from '../img/RCC_Office.jpg';
 
 /**
 * React Component to Render Lotto Picker home page
@@ -48,7 +49,9 @@ class Home extends React.Component {
         <section id="map" className="section-white">
           <div className="row text-center">
             <div className="col-md-12 ">
-
+            <img className='img-fluid' max-height='500px' src={Office} alt='RCC Offices'></img>
+            <br/>
+            <br/>
             </div>
           </div>
         </section>
