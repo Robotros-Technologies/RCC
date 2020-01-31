@@ -22,6 +22,15 @@ class Home extends React.Component {
   render() {
     return (
       <div className = 'Home container'>
+      <section id="map" className="section-white">
+          <div className="row text-center">
+            <div className="col-md-12 ">
+            <img className='img-fluid' max-height='500px' src={Office} alt='RCC Offices'></img>
+            <br/>
+            <br/>
+            </div>
+          </div>
+        </section>
         <section className="section-white" id="about">
           <div className="row">
             <div className="col-md-12 text-center">
@@ -46,15 +55,7 @@ class Home extends React.Component {
                   </div>
               </div>
         </section>
-        <section id="map" className="section-white">
-          <div className="row text-center">
-            <div className="col-md-12 ">
-            <img className='img-fluid' max-height='500px' src={Office} alt='RCC Offices'></img>
-            <br/>
-            <br/>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }

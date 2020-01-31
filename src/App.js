@@ -16,6 +16,7 @@ import {faCopyright} from '@fortawesome/free-solid-svg-icons';
 import Head from './components/Head';
 import Foot from './components/Foot';
 import Home from './components/Home';
+import Services from './components/Services';
 import Logo from './img/RCC_Logo.png';
 import './css/app.css';
 
@@ -37,24 +38,25 @@ class RCCApp extends React.Component {
         'component': Home,
       },
       {
-        'path': '/',
+        'path': '/Services',
         'label': 'Services',
+        'component': Services,
 
       },
-      {
-        'path': '/',
-        'label': 'Contact',
+      // {
+      //   'path': '/Contact',
+      //   'label': 'Contact',
 
-      },
-      {
-        'path': '/',
-        'label': 'Careers',
+      // },
+      // {
+      //   'path': '/Careers',
+      //   'label': 'Careers',
 
-      },
+      // },
     ],
     social: [
-      {'url': 'https://www.facebook.com/robotrostech'},
       {'url': 'https://www.linkedin.com/company/refrigerationcontractingcompany'},
+      // {'url': 'https://www.facebook.com/robotrostech'},
       // {'url': 'emailto:a.roberts@robotros.tech'},
     ],
     credentials:

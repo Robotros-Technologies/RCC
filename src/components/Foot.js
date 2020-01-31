@@ -18,7 +18,7 @@ class Foot extends Component {
   */
   render() {
     return (
-      <footer className='py-5 bg-dark text-white'>
+      <footer className='py-5 bg-dark1 text-white'>
         <div className="footer-above">
           <div className="container">
             <div className="row" id="contact">
@@ -45,8 +45,8 @@ class Foot extends Component {
               <div className="footer-col col-md-4 text-right">
                 <h3>Phone</h3>
                 <p> Toll Free : 855-852-4555 <br/>
-                    Office: <br/>
-                    Fax:  <br/>
+                    Office: 855-852-4555 <br/>
+                    Fax: 602-900-5064 <br/>
                 </p>
                 <hr/>
                 <p>

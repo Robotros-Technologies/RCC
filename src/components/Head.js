@@ -19,7 +19,7 @@ class Head extends Component {
   render() {
     return (
       <header>
-        <nav className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
+        <nav className='navbar navbar-expand-lg navbar-dark bg-dark1 fixed-top'>
           <div className='container'>
             <div className='navbar-brand'>
               <img src={this.props.logo}
