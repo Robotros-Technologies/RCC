@@ -21,14 +21,14 @@ class Head extends Component {
       <header>
         <nav className='navbar navbar-expand-lg navbar-dark bg-dark1 fixed-top'>
           <div className='container'>
-            <div className='navbar-brand float-left'>
-              <div className='h-50 w-25 p-3 d-inline-block'>
+            <div className='navbar-brand w-75 text-left'>
+              <div className='w-25 d-inline-block'>
                 <img src={this.props.logo}
                   alt='Logo'
                   className='logo img-fluid'>
                 </img>
               </div>
-              <h1 className='title d-sm-none'>
+              <h1 className='title text-left'>
                 {this.props.site}
               </h1>
             </div>
