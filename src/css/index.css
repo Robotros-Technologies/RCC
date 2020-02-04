@@ -21,8 +21,8 @@ html {
 }
 
 body {
-  padding-top: 9em;
   font-family: 'Open Sans', sans-serif;
+  padding-top:  154px;
 }
 
 header {
@@ -37,11 +37,13 @@ footer hr{
   border: 2px solid white;
 }
 
-.title{
- font-family: 'B612 Mono', monospace;
-  font-size: 1.5em;
+h1{
+  display:inline;
 }
 
+.title{
+  font-size:2vw;
+}
 .foot{
   padding:0px;
 }
@@ -50,8 +52,13 @@ footer hr{
 }
 
 .logo{
-  max-height:125px;
+  max-width:100%;
+  height:auto;
 }
+
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+    }
 
 .text-red{
   color:red;
