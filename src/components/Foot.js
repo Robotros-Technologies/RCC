@@ -22,7 +22,7 @@ class Foot extends Component {
         <div className="footer-above">
           <div className="container">
             <div className="row" id="contact">
-              <div className="footer-col col-md-4 text-left">
+              <div className="footer-col col-md-4 text-xs-right">
                 <h3>Location</h3>
                 <p>6003 S. 40th St.
                   <br/>Phoenix, AZ 85040
