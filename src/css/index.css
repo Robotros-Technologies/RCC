@@ -1,5 +1,12 @@
 html {
-  font-size: 1rem;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  body { padding-top: 80px; }
+  .text-xs-right{
+      text-align:right;
+  }
 }
 
 @include media-breakpoint-up(sm) {
@@ -54,13 +61,6 @@ h1{
 .logo{
   max-width:100%;
   height:auto;
-}
-
-@media screen and (max-width: 767px) {
-  body { padding-top: 80px; }
-  .text-xs-right{
-      text-align:right;
-  }
 }
 
 .text-red{
